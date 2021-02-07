@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5f303b55.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bc06158a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bc06158a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.896df889.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.896df889.js.map",
+    "static/js/2.b7e9e738.chunk.js": "/Portfolio/static/js/2.b7e9e738.chunk.js",
+    "static/js/2.b7e9e738.chunk.js.map": "/Portfolio/static/js/2.b7e9e738.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.5f303b55.chunk.css.map": "/Portfolio/static/css/main.5f303b55.chunk.css.map",
+    "static/js/2.b7e9e738.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b7e9e738.chunk.js.LICENSE.txt",
+    "static/media/AboutSVG.784fb890.svg": "/Portfolio/static/media/AboutSVG.784fb890.svg",
+    "static/media/BuildingsBigSVG.26b8ee02.svg": "/Portfolio/static/media/BuildingsBigSVG.26b8ee02.svg",
+    "static/media/BuildingsPhoneSVG.6840e9b7.svg": "/Portfolio/static/media/BuildingsPhoneSVG.6840e9b7.svg",
+    "static/media/BuildingsSVG.15721635.svg": "/Portfolio/static/media/BuildingsSVG.15721635.svg",
+    "static/media/CloseXSVG.decfadf9.svg": "/Portfolio/static/media/CloseXSVG.decfadf9.svg",
+    "static/media/ContactSVG.ed143822.svg": "/Portfolio/static/media/ContactSVG.ed143822.svg",
+    "static/media/ExternalSVG.fa33597f.svg": "/Portfolio/static/media/ExternalSVG.fa33597f.svg",
+    "static/media/GitHubSVG.e2010d98.svg": "/Portfolio/static/media/GitHubSVG.e2010d98.svg",
+    "static/media/HamburgerSVG.87b5ec41.svg": "/Portfolio/static/media/HamburgerSVG.87b5ec41.svg",
+    "static/media/LineSVG.2b085038.svg": "/Portfolio/static/media/LineSVG.2b085038.svg",
+    "static/media/Mateusz_Maranowski_CV.88ae822f.pdf": "/Portfolio/static/media/Mateusz_Maranowski_CV.88ae822f.pdf",
+    "static/media/ProjectsSVG.9ba5bf58.svg": "/Portfolio/static/media/ProjectsSVG.9ba5bf58.svg",
+    "static/media/RectangleSVG.329a5d7d.svg": "/Portfolio/static/media/RectangleSVG.329a5d7d.svg",
+    "static/media/ResumeSVG.7a6ea706.svg": "/Portfolio/static/media/ResumeSVG.7a6ea706.svg",
+    "static/media/WriteSVG.e6ecb310.svg": "/Portfolio/static/media/WriteSVG.e6ecb310.svg",
+    "static/media/price_tracker_video_final.cb183858.mp4": "/Portfolio/static/media/price_tracker_video_final.cb183858.mp4",
+    "static/media/skupkomiksow-video-final.fef7a9dc.mp4": "/Portfolio/static/media/skupkomiksow-video-final.fef7a9dc.mp4",
+    "static/media/weather-app-video-final.19cf6844.mp4": "/Portfolio/static/media/weather-app-video-final.19cf6844.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.896df889.js",
+    "static/js/2.b7e9e738.chunk.js",
+    "static/css/main.5f303b55.chunk.css",
+    "static/js/main.bc06158a.chunk.js"
+  ]
+}
