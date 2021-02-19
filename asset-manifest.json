@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bd9ab861.chunk.css",
-    "main.js": "/Portfolio/static/js/main.b85744d5.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.b85744d5.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.a68a0d02.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a68a0d02.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.896df889.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.896df889.js.map",
     "static/js/2.b7e9e738.chunk.js": "/Portfolio/static/js/2.b7e9e738.chunk.js",
@@ -27,12 +27,12 @@
     "static/media/WriteSVG.e6ecb310.svg": "/Portfolio/static/media/WriteSVG.e6ecb310.svg",
     "static/media/price_tracker_video_final.cb183858.mp4": "/Portfolio/static/media/price_tracker_video_final.cb183858.mp4",
     "static/media/skupkomiksow-video-final.fef7a9dc.mp4": "/Portfolio/static/media/skupkomiksow-video-final.fef7a9dc.mp4",
-    "static/media/weather-app-video-final.19cf6844.mp4": "/Portfolio/static/media/weather-app-video-final.19cf6844.mp4"
+    "static/media/weather_app_v2.5e970d88.mp4": "/Portfolio/static/media/weather_app_v2.5e970d88.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.896df889.js",
     "static/js/2.b7e9e738.chunk.js",
     "static/css/main.bd9ab861.chunk.css",
-    "static/js/main.b85744d5.chunk.js"
+    "static/js/main.a68a0d02.chunk.js"
   ]
 }
