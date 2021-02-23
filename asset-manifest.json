@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bd9ab861.chunk.css",
-    "main.js": "/Portfolio/static/js/main.5b8684d7.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.5b8684d7.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.175d1f64.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.175d1f64.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.896df889.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.896df889.js.map",
     "static/js/2.b7e9e738.chunk.js": "/Portfolio/static/js/2.b7e9e738.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/GitHubSVG.e2010d98.svg": "/Portfolio/static/media/GitHubSVG.e2010d98.svg",
     "static/media/HamburgerSVG.87b5ec41.svg": "/Portfolio/static/media/HamburgerSVG.87b5ec41.svg",
     "static/media/LineSVG.2b085038.svg": "/Portfolio/static/media/LineSVG.2b085038.svg",
-    "static/media/Mateusz_Maranowski_CV.fef8caf7.pdf": "/Portfolio/static/media/Mateusz_Maranowski_CV.fef8caf7.pdf",
+    "static/media/Mateusz_Maranowski_CV.6e573eca.pdf": "/Portfolio/static/media/Mateusz_Maranowski_CV.6e573eca.pdf",
     "static/media/ProjectsSVG.9ba5bf58.svg": "/Portfolio/static/media/ProjectsSVG.9ba5bf58.svg",
     "static/media/RectangleSVG.329a5d7d.svg": "/Portfolio/static/media/RectangleSVG.329a5d7d.svg",
     "static/media/ResumeSVG.7a6ea706.svg": "/Portfolio/static/media/ResumeSVG.7a6ea706.svg",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.896df889.js",
     "static/js/2.b7e9e738.chunk.js",
     "static/css/main.bd9ab861.chunk.css",
-    "static/js/main.5b8684d7.chunk.js"
+    "static/js/main.175d1f64.chunk.js"
   ]
 }
