@@ -1,0 +1,217 @@
+.Contact-section {
+  background-color: #2a3342;
+  padding-bottom: 200px;
+  min-width: 280px;
+  position: relative;
+}
+.UpBuildingsSVG {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  z-index: 0;
+  background-color: #202832;
+  padding-top: 100px;
+  min-width: 280px;
+}
+.contact-textdiv {
+  min-width: 280px;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 12vw;
+  padding-top: 40px;
+  padding-right: 12vw;
+  margin-top: -20px;
+  background-color: #2a3342;
+}
+.title-contact {
+  min-width: 270px;
+  display: inline-flex;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.big-text-contact {
+  color: #27debf;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0 9px 0 9px;
+  letter-spacing: 95%;
+  background-color: #2a3342;
+}
+.contact-description {
+  font-family: "Roboto Mono", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff2f1;
+}
+
+.bold-mail {
+  font-weight: 500;
+}
+
+.contact-section-SVG {
+  display: flex;
+  margin-bottom: 0px;
+  height: 18px;
+  width: 17px;
+  position: absolute;
+  top: 23px;
+  left: 0px;
+}
+.contact-section-SVG-1 {
+  display: flex;
+  margin-bottom: 0px;
+  height: 18px;
+  width: 17px;
+  position: absolute;
+  top: 24px;
+  left: 0px;
+}
+.sender-info-SVG {
+  display: flex;
+  height: 15px;
+  width: 14px;
+  margin-right: 6px;
+  margin-left: -6px;
+  margin-bottom: 2px;
+}
+.sender-info-SVG-1 {
+  display: flex;
+  height: 15px;
+  width: 14px;
+  margin-right: 6px;
+  margin-left: -6px;
+}
+.sender-info-div {
+  display: flex;
+  min-height: 40px;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.sender-info {
+  border: 2px solid #27debf;
+  display: flex;
+  padding: 5px 15px 5px 15px;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  background-color: #2a3342;
+  position: relative;
+  align-items: center;
+  color: #fff2f1;
+  word-break: break-all;
+  margin-right: 20px;
+}
+
+.div-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.form {
+  width: 100%;
+  padding: 12px 26px;
+  margin: 8px 0;
+  border: 3px solid #27debf;
+  border-width: 0px 0px 3px 0px;
+  background-image: none;
+  box-shadow: none;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  display: inline;
+  color: #fff2f1;
+  font-size: 20px;
+}
+
+.form-big {
+  width: 100%;
+  padding: 12px 26px;
+  margin: 8px 0;
+  border: 3px solid #27debf;
+  border-width: 0px 0px 3px 0px;
+  background-image: none;
+  box-shadow: none;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+  color: #fff2f1;
+  font-size: 20px;
+}
+.phone-buttons {
+  margin-top: 20px;
+}
+.btn {
+  font-weight: 400;
+  border: 1.5px solid #27debf;
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  color: #27debf;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 22px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+.btn-inactive {
+  font-weight: 400;
+  border: 1.5px solid gray;
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  margin-right: 20px;
+  color: gray;
+  background-color: transparent;
+  cursor: default;
+  margin-bottom: 10px;
+
+}
+.btn:hover {
+  background-color: rgba(39, 222, 191, 0.15);
+}
+.message-sent {
+  font-weight: 400;
+  border: 1.5px solid #27debf;
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  color: #27debf;
+  font-family: "Roboto", sans-serif;
+  cursor: default;
+  font-size: 22px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  visibility: hidden;
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.98);
+    box-shadow: 0 0 0 0 rgba(39, 222, 191, 0.6);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(39, 222, 191, 0);
+  }
+
+  100% {
+    transform: scale(0.98);
+    box-shadow: 0 0 0 0 rgba(39, 222, 191, 0);
+  }
+}
+

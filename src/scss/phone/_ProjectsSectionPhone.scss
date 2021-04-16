@@ -1,0 +1,100 @@
+// Regular project
+.featured-project-phone {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 40px;
+  padding-right: 30px;
+  font-weight: 400;
+}
+.project-name-phone {
+  text-align: right;
+  font-size: 30px;
+  padding-right: 30px;
+  font-weight: 500;
+}
+
+.project-description-phone {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 100px;
+  text-align: right;
+  font-size: 18px;
+}
+.project-description-phone-i {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 100px;
+  text-align: left;
+  font-size: 18px;
+}
+.languages-phone {
+  position: relative;
+  text-align: right;
+  padding-right: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 91.5%;
+  color: #27debf;
+  padding-top: 100px;
+}
+
+// Inverted project
+.featured-project-phone-i {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 40px;
+  padding-left: 30px;
+  font-weight: 400;
+}
+.project-name-phone-i {
+  text-align: left;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+
+.languages-phone-i {
+  text-align: left;
+  padding-left: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 91.5%;
+  color: #27debf;
+  padding-top: 100px;
+}
+
+// Styles to both
+.projects-section {
+  padding-top: 150px;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  position: relative;
+  min-width: 280px;
+}
+
+.whole-project {
+  min-width: 270px;
+  position: relative;
+  text-align: right;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.phone-project-img {
+  width: 100%;
+}
+
+.text-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,77 @@
+.About-me-section {
+  min-width: 280px;
+}
+
+.UpperBuildingsSVG {
+  min-width: 280px;
+  position: relative;
+  margin-top: -100px;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.LowerBuildingsSVG {
+  min-width: 280px;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  max-height: 100%;
+  transform: rotate(180deg);
+}
+.all-text {
+  min-width: 280px;
+  padding-top: 50px;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  display: flexbox;
+  background-color: #2a3342;
+  margin-top: -8px;
+  margin-bottom: -3px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.title-about-me {
+  display: inline-flex;
+  background-color: #2a3342;
+  padding-bottom: 20px;
+}
+.rectangleSVG-about {
+  margin-top: 25px;
+  background-color: #2a3342;
+}
+.big-text-about {
+  color: #27debf;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0 9px 0 9px;
+  letter-spacing: 95%;
+  background-color: #2a3342;
+}
+.lineSVG {
+  margin-top: 35px;
+  background-color: #2a3342;
+}
+.medium-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  letter-spacing: 95%;
+  background-color: #2a3342;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #fff2f1;
+}
+.small-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 95%;
+  background-color: #2a3342;
+  color: #fff2f1;
+}

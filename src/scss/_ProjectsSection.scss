@@ -1,0 +1,183 @@
+.title {
+  min-width: 270px;
+  display: inline-flex;
+  padding-bottom: 80px;
+}
+.rectangleSVG {
+  margin-top: 25px;
+}
+.big-text-projects {
+  color: #27debf;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0 9px 0 9px;
+  letter-spacing: 95%;
+  background: transparent;
+}
+.lineSVG {
+  margin-top: 35px;
+}
+.project {
+  display: flex;
+  position: relative;
+}
+
+.inverted-project {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.description-box {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  z-index: 3;
+}
+
+.db {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.featured-project {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -80px;
+  color: #fff2f1;
+  margin-left: -200px;
+}
+.inverted-featured-project {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -80px;
+  color: #fff2f1;
+  margin-right: -200px;
+}
+.project-name {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #fff2f1;
+  margin-left: -200px;
+}
+.inverted-project-name {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #fff2f1;
+  margin-right: -200px;
+}
+
+.description {
+  background-color: #2a3342;
+  box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.45);
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  margin-left: -50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: right;
+  max-height: 80%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #fff2f1;
+}
+.inverted-description {
+  background-color: #2a3342;
+  box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.45);
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  padding-left: 25px;
+  max-height: 80%;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  position: relative;
+  margin-right: -50px;
+  color: #fff2f1;
+}
+.imgg {
+  width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+}
+.inverted-img {
+  width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.languages {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 91.5%;
+  color: #27debf;
+  text-align: right;
+  margin-left: -50px;
+  margin-top: 20px;
+}
+.inverted-languages {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 91.5%;
+  color: #27debf;
+  text-align: left;
+  margin-right: -50px;
+  margin-top: 20px;
+}
+.GitHubSVGDIV {
+  margin-top: 15px;
+  margin-bottom: -60px;
+  align-items: center;
+  margin-left: -50px;
+}
+.GitHubSVGDIV-i {
+  margin-top: 15px;
+  margin-bottom: -60px;
+  align-items: center;
+}
+.GitHubSVG {
+  width: 24px;
+  height: 24px;
+  float: right;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.GitHubSVG-i {
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.ExternalSVG {
+  width: 24px;
+  height: 24px;
+  float: right;
+  cursor: pointer;
+}
+.ExternalSVG-i {
+  width: 24px;
+  height: 24px;
+  float: left;
+  cursor: pointer;
+}

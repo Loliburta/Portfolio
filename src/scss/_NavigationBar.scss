@@ -1,0 +1,77 @@
+.navigation-bar {
+  display: inline-flex;
+  line-height: 30px;
+  justify-content: space-between;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 25px;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 25px;
+}
+
+.code-sign {
+  font-size: 25px;
+  color: #27debf;
+  font-family: "Audiowide", cursive;
+  display: inline-flex;
+  margin-top: 9px;
+}
+.name {
+  font-size: 25px;
+  font-family: "Martel Sans", sans-serif;
+  display: inline-flex;
+  color: #fff2f1;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 61%;
+}
+.element {
+  display: inline-flex;
+  cursor: pointer;
+}
+.svg {
+  margin-top: 5.5px;
+  margin-right: 18px;
+  width: 21px;
+  height: 19px;
+  // width="14" height="18"
+}
+.svg-resume {
+  margin-top: 14px;
+  margin-right: 18px;
+  width: 14px;
+  height: 18px;
+}
+.resume-border {
+  padding: 5px 10px 5px 10px;
+  border: 2px solid #27debf;
+  margin-left: -2px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.element-resume {
+  display: inline-flex;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.element-resume:hover {
+  background-color: rgba(39, 222, 191, 0.2);
+}
+.resume-border:hover {
+  background-color: transparent;
+}
+.green-text {
+  color: #27debf;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-flex;
+}

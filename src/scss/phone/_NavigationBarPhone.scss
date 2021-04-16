@@ -1,0 +1,106 @@
+.logo-phone {
+  margin-top: 7px;
+}
+.code-sign-p {
+  font-size: 25px;
+  color: #27debf;
+  font-family: "Audiowide", cursive;
+  display: inline-flex;
+}
+.name-p {
+  font-size: 25px;
+  font-family: "Martel Sans", sans-serif;
+  display: inline-flex;
+  color: #fff2f1;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  z-index: 9;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  min-width: 280px;
+}
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+.nav-menu {
+  background-color: rgba(6, 11, 38, 0.8);
+  width: 250px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  z-index: 10;
+}
+.nav-menu.active {
+  right: 0;
+  transition: 350ms;
+  z-index: 10;
+}
+.closeXSVG {
+  width: 40px;
+  margin-left: 19px;
+  margin-top: -24px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.phone-menu-svg {
+  width: 25px;
+  height: 25px;
+}
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 80px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 50px;
+  transition: background-color 0.3s ease;
+}
+.nav-text:hover {
+  background-color: rgba(39, 222, 191, 0.3);
+}
+.nav-text a {
+  text-decoration: none;
+  color: #27debf;
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+span {
+  margin-left: 16px;
+}

@@ -1,0 +1,490 @@
+// Variables
+$size3500px: 31vw;
+$size3000px: 29vw;
+$size2400px: 23vw;
+$size2000px: 19.5vw;
+$size1800px: 10vw;
+$size1700px: 9vw;
+$size1600px: 8vw;
+$size1500px: 7vw;
+
+@media (min-width: 3500px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size3500px;
+    padding-right: $size3500px;
+  }
+}
+@media (min-width: 3000px) and (max-width: 3499px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size3000px;
+    padding-right: $size3000px;
+  }
+}
+@media (min-width: 2400px) and (max-width: 2999px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size2400px;
+    padding-right: $size2400px;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2399px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size2000px;
+    padding-right: $size2000px;
+  }
+}
+@media (max-width: 1800px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size1800px;
+    padding-right: $size1800px;
+  }
+}
+@media (max-width: 1700px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size1700px;
+    padding-right: $size1700px;
+  }
+}
+@media (max-width: 1600px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size1600px;
+    padding-right: $size1600px;
+  }
+}
+@media (max-width: 1500px) {
+  .navigation-bar,
+  .projects-section,
+  .radial,
+  .all-text,
+  .contact-textdiv {
+    padding-left: $size1500px;
+    padding-right: $size1500px;
+  }
+}
+//short description
+@media (min-width: 2000px) {
+  .radial {
+    background: radial-gradient(
+      44.81% 44.81% at 50% 50%,
+      rgba(142, 181, 230, 0.28) 0%,
+      rgba(36, 44, 53, 0.42) 100%
+    );
+    padding-top: 200px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    padding-bottom: 300px;
+  }
+}
+@media (max-width: 1800px) {
+  .big-text-fd {
+    font-size: 55px;
+  }
+  .small-text-fd {
+    font-size: 25px;
+  }
+  .button-portfolio {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1500px) {
+  .big-text-fd {
+    font-size: 50px;
+  }
+  .small-text-fd {
+    font-size: 23px;
+  }
+  .button-portfolio {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1350px) {
+  .big-text-fd {
+    font-size: 45px;
+  }
+  .small-text-fd {
+    font-size: 22px;
+  }
+  .button-portfolio {
+    font-size: 27px;
+  }
+}
+@media (max-width: 1250px) {
+  .radial {
+    background: radial-gradient(
+      58.81% 44.81% at 50% 50%,
+      rgba(142, 181, 230, 0.28) 0%,
+      rgba(36, 44, 53, 0.42) 80%
+    );
+  }
+  .big-text-fd {
+    font-size: 40px;
+  }
+  .small-text-fd {
+    font-size: 20px;
+  }
+  .button-portfolio {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1100px) {
+  .big-text-fd {
+    font-size: 36.5px;
+  }
+  .small-text-fd {
+    font-size: 18px;
+  }
+  .button-portfolio {
+    font-size: 22px;
+  }
+}
+@media (max-width: 940px) {
+  .big-text-fd {
+    font-size: 35px;
+  }
+  .button-portfolio {
+    font-size: 28px;
+  }
+  .radial {
+    padding-right: 0vw;
+    padding-left: 0vw;
+  }
+  .programmerSVG {
+    z-index: 4;
+    position: absolute;
+  }
+  .Container-ShortDesc-Svg {
+    margin-top: 15px;
+  }
+  .big-text-fd {
+    justify-content: center;
+    text-align: center;
+  }
+  .small-text-fd {
+    justify-content: center;
+    text-align: center;
+  }
+  .btn-div {
+    justify-content: center;
+  }
+}
+@media (max-width: 420px) {
+  
+  .radial {
+    background: radial-gradient(
+      88.81% 44.81% at 50% 50%,
+      rgba(142, 181, 230, 0.28) 0%,
+      rgba(36, 44, 53, 0.42) 60%
+    );
+  }
+  .Container-ShortDesc-Svg {
+    width: 100vw;
+    max-width: 100%;
+  }
+}
+//projects section
+@media (max-width: 1300px) {
+  .description-box {
+    font-size: 17.5px;
+  }
+  .description {
+    margin-left: -200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .inverted-description {
+    margin-right: -200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .languages {
+    margin-left: -200px;
+  }
+  .inverted-languages {
+    margin-right: -200px;
+  }
+}
+@media (max-width: 1050px) {
+  .description-box {
+    font-size: 16.5px;
+  }
+  .description {
+    margin-left: -175px;
+  }
+  .inverted-description {
+    margin-right: -175px;
+  }
+  .languages {
+    margin-left: -175px;
+  }
+  .inverted-languages {
+    margin-right: -175px;
+  }
+  .imgg {
+    width: 600px;
+  }
+  .inverted-img {
+    width: 600px;
+  }
+}
+@media (max-width: 900px) {
+  .title {
+    justify-content: center;
+    display: flex;
+  }
+  .title-contact {
+    justify-content: center;
+    display: flex;
+  }
+  .GitHubSVGDIV {
+    padding-right: 30px;
+  }
+  .GitHubSVGDIV-i {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 775px) {
+  .project-description-phone {
+    margin-top: 70px;
+  }
+  .project-description-phone-i {
+    margin-top: 70px;
+  }
+  .languages-phone {
+    padding-top: 75px;
+  }
+  .languages-phone-i {
+    padding-top: 75px;
+  }
+}
+@media (max-width: 690px) {
+  .featured-project-phone {
+    margin-top: 10px;
+    padding-right: 10px;
+  }
+  .featured-project-phone-i {
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  .project-name-phone {
+    padding-right: 10px;
+  }
+  .project-name-phone-i {
+    padding-left: 10px;
+  }
+  .project-description-phone {
+    margin-top: 60px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
+  .project-description-phone-i {
+    margin-top: 60px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  .languages-phone {
+    padding-right: 10px;
+  }
+  .languages-phone-i {
+    padding-left: 10px;
+  }
+  .GitHubSVGDIV {
+    padding-right: 10px;
+  }
+  .GitHubSVGDIV-i {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 590px) {
+  .project-description-phone {
+    margin-top: 50px;
+  }
+  .project-description-phone-i {
+    margin-top: 50px;
+  }
+  .languages-phone {
+    padding-top: 40px;
+  }
+  .languages-phone-i {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 510px) {
+  .project-description-phone {
+    margin-top: 30px;
+  }
+  .project-description-phone-i {
+    margin-top: 30px;
+  }
+  .languages-phone {
+    padding-top: 30px;
+  }
+  .languages-phone-i {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 460px) {
+  .whole-project {
+    margin-bottom: 130px;
+  }
+  .projects-section {
+    padding-right: 1vw;
+    padding-left: 1vw;
+  }
+  .featured-project-phone {
+    margin-top: 0px;
+  }
+  .featured-project-phone-i {
+    margin-top: 0px;
+  }
+  .project-description-phone {
+    padding-left: 3px;
+  }
+  .project-description-phone-i {
+    padding-right: 3px;
+  }
+}
+@media (max-width: 330px) {
+  .projects-section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .featured-project-phone {
+    display: none;
+  }
+  .featured-project-phone-i {
+    display: none;
+  }
+  .project-description-phone {
+    margin-top: 5px;
+    padding-left: 3px;
+    padding-right: 10px;
+  }
+  .project-description-phone-i {
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 3px;
+  }
+  .languages-phone {
+    padding-top: 5px;
+  }
+  .languages-phone-i {
+    padding-top: 5px;
+  }
+}
+
+//about me
+@media (max-width: 900px) {
+  .all-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .title-about-me {
+    justify-content: center;
+    display: flex;
+  }
+  .lineSVG {
+    display: none;
+  }
+  .medium-text {
+    font-size: 23px;
+    justify-content: center;
+    text-align: center;
+  }
+  .small-text {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .all-text {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  .big-text-about {
+    font-size: 39px;
+  }
+  .rectangleSVG-about {
+    margin-top: 20.5px;
+  }
+}
+// contact section
+@media (max-width: 1500px) {
+  .title-contact {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .Contact-section {
+    padding-bottom: 150px;
+  }
+  .contact-description {
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+  }
+  .title-contact {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .Contact-section {
+    padding-bottom: 100px;
+  }
+  .sender-info-div {
+    justify-content: space-around;
+  }
+  .sender-info {
+    margin-right: 3px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .Contact-section {
+    padding-bottom: 50px;
+  }
+  .phone-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .btn-inactive {
+    font-size: 20px;
+  }
+  .contact-textdiv {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+}
