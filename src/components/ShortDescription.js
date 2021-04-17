@@ -14,7 +14,7 @@ const ShortDescription = () => {
         <div className="Container-ShortDesc-Svg">
           <div className="short-description">
             <h1 className="big-text-fd" id="big-text-fd">
-              I'm a Full-Stack developer
+              I'm a Front-end developer
             </h1>
             <h3 className="small-text-fd" id="small-text-fd">
               I specialize in building and designing websites.
